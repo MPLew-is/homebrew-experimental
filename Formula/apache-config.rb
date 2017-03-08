@@ -21,7 +21,7 @@ class ApacheConfig < Formula
 		To finish installation, please run:
 			apache-config install
 			
-			If you run into errors, please make sure you have Apache installed and that it is in PATH (as in, `which httpd` returns a valid path)
+		If you run into errors, please make sure you have Apache installed and that it is in PATH (as in, `which httpd` returns a valid path)
 		
 		EOS
 	end
