@@ -16,4 +16,13 @@ class ApacheConfig < Formula
 	def install
 		bin.install "apache-config.sh" => "apache-config"
 	end
+	
+	def caveats; <<-EOS.undent
+		To finish installation, please run:
+			apache-config install
+			
+			If you run into errors, please make sure you have Apache installed and that it is in PATH (as in, `which httpd` returns a valid path)
+		
+		EOS
+	end
 end
