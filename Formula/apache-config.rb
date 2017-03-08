@@ -2,7 +2,7 @@ class ApacheConfig < Formula
 	desc "Script for managing Apache configuration like a2enmod and related scripts on Debian"
 	homepage "https://github.com/MPLew-is/apache-config"
 	url "https://github.com/MPLew-is/apache-config/archive/v0.1.1.tar.gz"
-	sha256 "71f178d6f3d4f6a55a1eea7993e8d54202eb6507fa2834d44e21b752f9194ea"
+	sha256 "71f178d6f3d4f6a55a1eea7993e8d54202eb6507fa2834d44e21b752f9194eae"
 	head "https://github.com/MPLewis/apache-config.git"
 	
 	bottle :unneeded
