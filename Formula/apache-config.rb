@@ -7,6 +7,12 @@ class ApacheConfig < Formula
 	
 	bottle :unneeded
 	
+	option "with-httpd24", "Install Homebrew Apache 2.4 in place of the system Apache"
+	option "with-httpd22", "Install Homebrew Apache 2.2 in place of the system Apache"
+	
+	depends_on "homebrew/apache/httpd24" if build.with? "httpd-24"
+	depends_on "homebrew/apache/httpd22" if build.with? "httpd-22"
+	
 	def install
 		bin.install "apache-config.sh" => "apache-config"
 	end
