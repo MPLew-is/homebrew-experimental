@@ -1,2 +1,3 @@
 brew 'checkbashisms'
 brew 'php56'
+brew 'openssl'
