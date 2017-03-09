@@ -1,0 +1,2 @@
+brew 'checkbashisms'
+brew 'php56'
