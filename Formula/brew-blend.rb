@@ -13,7 +13,7 @@ class BrewBlend < Formula
 	
 	def caveats; <<-EOS.undent
 		To finish installation, please run:
-			brew-blend install --self
+			brew blend install --self
 		
 		EOS
 	end
