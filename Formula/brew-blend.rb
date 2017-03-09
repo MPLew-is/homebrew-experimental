@@ -1,7 +1,7 @@
 class BrewBlend < Formula
 	desc "Meta-formulae for homebrew"
 	homepage "https://github.com/MPLew-is/homebrew-blend"
-	head "https://github.com/MPLewis/homebrew-blend.git"
+	head "https://github.com/MPLew-is/homebrew-blend.git"
 	
 	bottle :unneeded
 	

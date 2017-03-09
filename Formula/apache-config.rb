@@ -3,7 +3,7 @@ class ApacheConfig < Formula
 	homepage "https://github.com/MPLew-is/apache-config"
 	url "https://github.com/MPLew-is/apache-config/archive/v0.1.2.tar.gz"
 	sha256 "20cbc232e72fda4af9e50e07f27b55fb94196f25db0c014096a5f378bf293dbf"
-	head "https://github.com/MPLewis/apache-config.git"
+	head "https://github.com/MPLew-is/apache-config.git"
 	
 	bottle :unneeded
 	
