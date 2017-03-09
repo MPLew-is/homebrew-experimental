@@ -1,0 +1,2 @@
+install-error: produces a purposeful installation failure, to test failure tolerance
+Attempts to install 'homebrew/boneyard/gitstats' without tapping first, which will cause install to die
